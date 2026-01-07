@@ -1,0 +1,12 @@
+MVP v1
+- Stock selection
+- Custom date range
+- Total return per stock
+
+MVP v2
+- Ranking best stocks in a period
+- Comparison charts
+
+MVP v3
+- Preset periods
+- Portfolio returns
