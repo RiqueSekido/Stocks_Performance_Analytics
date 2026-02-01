@@ -1,0 +1,40 @@
+.stocks-table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  background: #111;
+  color: #fff;
+}
+
+.stocks-table th,
+.stocks-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #222;
+  text-align: left;
+}
+
+.stocks-table th {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.ticker-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ticker-cell img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.positive {
+  color: #2ecc71;
+}
+
+.negative {
+  color: #e74c3c;
+}
+

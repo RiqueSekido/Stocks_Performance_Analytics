@@ -1,4 +1,5 @@
 import StockCard from "./components/StockCard";
+import StockTable from "./components/StockTable";
 import "./App.css";
 
 function App() {
@@ -10,14 +11,11 @@ function App() {
      "ITUB4", "CXSE3", "BPAC11", "ABEV3", "BBDC3"];
 
   return (
+
+
     <div className="app-layout">
       <h1>Minhas ações</h1>
-      {/* <h2>Período selecionado: {startDate} até {endDate} </h2> */}
-      <div className="stocks-table">
-        {tickerList.map(ticker=>(
-          <StockCard key={ticker} ticker={ticker}/>
-        ))}
-      </div>
+      <StockTable tickers={tickerList} />
     </div>
   );
 }
